@@ -1,14 +1,77 @@
-<Shapes xmlns="http://www.evolus.vn/Namespace/Pencil"  
-        xmlns:p="http://www.evolus.vn/Namespace/Pencil"  
-        xmlns:svg="http://www.w3.org/2000/svg"  
-        xmlns:xlink="http://www.w3.org/1999/xlink"  
-        
-        id="your_collection_id"  
-        displayName="Display name of your collection"  
-        description="More description about this collection"  
-        author="Names of the authors"  
-        url="Optional URL to its web page">  
-    
-    <!-- Your shapes go here -->  
-    
+<Shapes xmlns="http://www.evolus.vn/Namespace/Pencil"
+        xmlns:p="http://www.evolus.vn/Namespace/Pencil"
+        xmlns:svg="http://www.w3.org/2000/svg"
+        xmlns:xlink="http://www.w3.org/1999/xlink"
+        id="amk.pencil"
+        displayName="Aaron's Collection"
+        description="Totally awesome"
+        author="Aaron Madlon-Kay"
+        url="">
+    <!-- Your shapes go here -->
+    <Shape id="amk.darumarron"
+           displayName="Darumarron"
+           icon="Icons/amk.darumarron.png">
+        <Properties>
+            <PropertyGroup>
+                <Property name="box" type="Dimension" p:lockRatio="true">870,730</Property>
+            </PropertyGroup>
+        </Properties>
+        <Behaviors>
+            <For ref="group">
+                <Transform>[scale($box.w / 870, $box.h / 730)]</Transform>
+            </For>
+        </Behaviors>
+        <p:Content xmlns="http://www.w3.org/2000/svg">
+            <g id="group">
+                <path
+                    style="display:inline;fill:#f03434;fill-opacity:1;stroke:#000000;stroke-width:31.912117;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+                    d="m 425.42064,18.601 c 100.03876,54.3193 147.39923,34.53924 295.70065,184.00033 148.30143,149.4611 294.09031,511.57869 -280.70972,511.57869 -574.79995,0 -444.975763,-347.5468 -302.64738,-494.63373 C 280.09255,72.45935 336.00495,77.87638 425.42064,18.601 Z"
+                    id="path2985" />
+                <path
+                    id="path3936"
+                    d="m 435.23092,539.09933 c -149.34425,0 -282.17166,28.62575 -366.933336,73.06667 58.872816,60.453 173.343476,101.99999 372.099996,101.99999 193.66737,0 305.53881,-41.10129 363.06667,-101.33333 -84.7007,-44.82959 -218.12696,-73.73333 -368.23333,-73.73333 z"
+                    style="display:inline;fill:#f7d44d;fill-opacity:1;stroke:#000000;stroke-width:31.9125309;stroke-linecap:butt;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+                <path
+                    style="display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.99450731"
+                    d="m 290.67534,629.88164 a 16.144211,16.144211 0 0 1 -16.14422,16.14421 16.144211,16.144211 0 0 1 -16.14421,-16.14421 16.144211,16.144211 0 0 1 16.14421,-16.14421 16.144211,16.144211 0 0 1 16.14422,16.14421 z"
+                    id="path3922" />
+                <path
+                    style="display:inline;fill:#ffffff;stroke:none;stroke-width:1.99450731"
+                    d="m 197.77152,214.95615 c -72.97751,97.21312 -96.08688,261.87406 239.43748,260.73777 335.52431,-1.13629 303.49458,-160.88203 239.43746,-260.73777 -64.62038,-100.73384 -408.96121,-93.13183 -478.87494,0 z"
+                    id="path3770" />
+                <path
+                    style="display:inline;fill:#000000;fill-opacity:1;stroke-width:11.96704292;stroke-miterlimit:4;stroke-dasharray:none"
+                    d="m 369.30934,321.89849 a 47.970966,47.970966 0 0 1 -47.97096,47.97096 47.970966,47.970966 0 0 1 -47.97097,-47.97096 47.970966,47.970966 0 0 1 47.97097,-47.97097 47.970966,47.970966 0 0 1 47.97096,47.97097 z"
+                    id="path3778" />
+                <path
+                    style="display:inline;fill:#000000;fill-opacity:1;stroke-width:11.96704292;stroke-miterlimit:4;stroke-dasharray:none"
+                    d="m 597.09438,316.81584 a 47.970966,47.970966 0 0 1 -47.97097,47.97097 47.970966,47.970966 0 0 1 -47.97097,-47.97097 47.970966,47.970966 0 0 1 47.97097,-47.97096 47.970966,47.970966 0 0 1 47.97097,47.97096 z"
+                    id="path3778-9" />
+                <path
+                    style="display:inline;fill:none;stroke:#000000;stroke-width:31.912117;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+                    d="m 361.77536,436.74324 c 48.97036,-30.91325 97.94072,-27.99376 146.91107,-2.99818"
+                    id="path3920" />
+                <path
+                    style="display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.99450731"
+                    id="path3892"
+                    d="m 237.05158,194.93224 c 53.52184,3.29275 119.77657,13.76111 163.54616,29.26438 l -1.69812,44.28038 v 0 C 348.74443,255.06706 290.49502,236.30377 237.05158,239.35677 Z" />
+                <path
+                    style="display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.99450731"
+                    id="path3892-3"
+                    d="m 633.41023,196.3543 c -53.52186,3.29275 -119.77657,13.76113 -163.54616,29.2644 l 1.69812,44.28036 v 0 c 50.15519,-13.40994 108.40459,-32.17323 161.84804,-29.12021 z" />
+                <path
+                    style="display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.99450731"
+                    d="m 397.22926,598.17554 a 16.144211,16.144211 0 0 1 -16.14421,16.14421 16.144211,16.144211 0 0 1 -16.14421,-16.14421 16.144211,16.144211 0 0 1 16.14421,-16.14421 16.144211,16.144211 0 0 1 16.14421,16.14421 z"
+                    id="use4124" />
+                <path
+                    style="display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.99450731"
+                    d="m 482.79439,652.24152 a 16.144211,16.144211 0 0 1 -16.14421,16.14421 16.144211,16.144211 0 0 1 -16.14421,-16.14421 16.144211,16.144211 0 0 1 16.14421,-16.14421 16.144211,16.144211 0 0 1 16.14421,16.14421 z"
+                    id="use4130" />
+                <path
+                    style="display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.99450731"
+                    d="m 601.45616,621.40582 a 16.144211,16.144211 0 0 1 -16.14421,16.14421 16.144211,16.144211 0 0 1 -16.14421,-16.14421 16.144211,16.144211 0 0 1 16.14421,-16.14421 16.144211,16.144211 0 0 1 16.14421,16.14421 z"
+                    id="use4132" />
+            </g>
+        </p:Content>
+    </Shape>
 </Shapes>
